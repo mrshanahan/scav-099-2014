@@ -115,6 +115,7 @@ def stage1(B, pos, proposer, proposed):
     nx.draw_networkx_nodes(B, pos,
                            nodelist=[proposer.pid],
                            node_color='y',
+                           label="proposer",
                            node_size=500)
     # Draw rest of the men
     rest_men_pids = [key for key in men.keys() if key not in [proposer.pid]]
@@ -184,7 +185,7 @@ def genFilename(counter):
     return "gs_pic" + str(counter).zfill(3) + ".png"
 
 m = freeMan(men)
-counter = 0
+counter = 6 # First six images are for the legend.
 while m:
 	wid = m.nextHighestUnproposed()
 	w = women[wid]
