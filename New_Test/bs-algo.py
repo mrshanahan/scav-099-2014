@@ -54,12 +54,11 @@ class Person:
         def namesProposedTo(self):
                 return [PID for PID, mybool in self._proposedTo.items() if mybool == True]
 
-men_rankings = {'MA': ['WA','WB','WC','WD'], 'MB': ['WB','WD','WC','WA'],
-			    'MC': ['WC','WB','WA','WD'], 'MD': ['WB','WA','WD','WC']}
-women_rankings = {'WA': ['MC','MD','MA','MB'], 'WB': ['MA','MD','MB','MC'],
-				  'WC': ['MC','MB','MA','MD'], 'WD': ['MB','MC','MD','MA']}
-#men_rankings = {'MA': ['WA','WB','WC'], 'MB': ['WB','WA','WC'], 'MC': ['WB','WA','WC']}
-#women_rankings = {'WA': ['MA','MC','MB'], 'WB': ['MA','MB','MC'], 'WC': ['MB','MC','MA']}
+men_rankings = {'MD': ['WA', 'WD', 'WC', 'WB'], 'MA': ['WB', 'WC', 'WD', 'WA'], 'MC': ['WA', 'WC', 'WB', 'WD'], 'MB': ['WA', 'WB', 'WC', 'WD']}
+
+
+women_rankings = {'WD': ['MA', 'MC', 'MB', 'MD'], 'WC': ['MA', 'MB', 'MD', 'MC'], 'WB': ['MC', 'MA', 'MD', 'MB'], 'WA': ['MA', 'MC', 'MB', 'MD']}
+
 men = {k: Person(k,ranks) for (k,ranks) in men_rankings.items()}
 women = {k: Person(k,ranks) for (k,ranks) in women_rankings.items()}
 
@@ -105,7 +104,7 @@ def foo(n, men, women, proposer, proposed, stage_num, myFilename):
     nx.draw_networkx_edges(B, pos)
     plt.axis('off')
     plt.savefig(myFilename)
-    plt.show()
+    #plt.show()
 
 # Next, we divide it up between three stages, each having different node colors.
 

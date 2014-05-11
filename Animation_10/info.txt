@@ -1,0 +1,105 @@
+counter: 6; []
+counter: 7; []
+counter: 8; [('ME', 'WD')]
+Step:9 MG's partner: None
+counter: 9; [('ME', 'WD')]
+counter: 10; [('ME', 'WD')]
+counter: 11; [('ME', 'WD'), ('MD', 'WI')]
+Step:12 MG's partner: None
+counter: 12; [('ME', 'WD'), ('MD', 'WI')]
+counter: 13; [('ME', 'WD'), ('MD', 'WI')]
+counter: 14; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WC')]
+Step:15 MG's partner: WC
+counter: 15; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WC')]
+counter: 16; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WC')]
+counter: 17; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WC'), ('MF', 'WJ')]
+Step:18 MG's partner: WC
+counter: 18; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WC'), ('MF', 'WJ')]
+counter: 19; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WC'), ('MF', 'WJ')]
+counter: 20; [('ME', 'WD'), ('MD', 'WI'), ('MF', 'WJ'), ('MA', 'WC')]
+Step:21 MG's partner: None
+counter: 21; [('ME', 'WD'), ('MD', 'WI'), ('MF', 'WJ'), ('MA', 'WC')]
+counter: 22; [('ME', 'WD'), ('MD', 'WI'), ('MF', 'WJ'), ('MA', 'WC')]
+counter: 23; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WJ'), ('MA', 'WC')]
+Step:24 MG's partner: WG
+counter: 24; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WJ'), ('MA', 'WC')]
+counter: 25; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WJ'), ('MA', 'WC')]
+counter: 26; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WJ'), ('MA', 'WC'), ('MC', 'WA')]
+Step:27 MG's partner: WG
+counter: 27; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WJ'), ('MA', 'WC'), ('MC', 'WA')]
+counter: 28; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WJ'), ('MA', 'WC'), ('MC', 'WA')]
+counter: 29; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WJ'), ('MA', 'WC'), ('MC', 'WA')]
+Step:30 MG's partner: WG
+counter: 30; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WJ'), ('MA', 'WC'), ('MC', 'WA')]
+counter: 31; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WJ'), ('MA', 'WC'), ('MC', 'WA')]
+counter: 32; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ')]
+Step:33 MG's partner: WG
+counter: 33; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ')]
+counter: 34; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ')]
+counter: 35; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ')]
+Step:36 MG's partner: WG
+counter: 36; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ')]
+counter: 37; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ')]
+counter: 38; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ')]
+Step:39 MG's partner: WG
+counter: 39; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ')]
+counter: 40; [('ME', 'WD'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ')]
+counter: 41; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+Step:42 MG's partner: WG
+counter: 42; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+counter: 43; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+counter: 44; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+Step:45 MG's partner: WG
+counter: 45; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+counter: 46; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+counter: 47; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+Step:48 MG's partner: WG
+counter: 48; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+counter: 49; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+counter: 50; [('ME', 'WF'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+Step:51 MG's partner: WG
+counter: 51; [('ME', 'WF'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+counter: 52; [('ME', 'WF'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+counter: 53; [('ME', 'WF'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+Step:54 MG's partner: WG
+counter: 54; [('ME', 'WF'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+counter: 55; [('ME', 'WF'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('MI', 'WD')]
+counter: 56; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+Step:57 MG's partner: WG
+counter: 57; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+counter: 58; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+counter: 59; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+Step:60 MG's partner: WG
+counter: 60; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+counter: 61; [('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+counter: 62; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+Step:63 MG's partner: WG
+counter: 63; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+counter: 64; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+counter: 65; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+Step:66 MG's partner: WG
+counter: 66; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+counter: 67; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+counter: 68; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+Step:69 MG's partner: WG
+counter: 69; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+counter: 70; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+counter: 71; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+Step:72 MG's partner: WG
+counter: 72; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+counter: 73; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD')]
+counter: 74; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD'), ('MJ', 'WH')]
+Step:75 MG's partner: WG
+counter: 75; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD'), ('MJ', 'WH')]
+counter: 76; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD'), ('MJ', 'WH')]
+counter: 77; [('ME', 'WB'), ('MD', 'WI'), ('MG', 'WG'), ('MF', 'WE'), ('MA', 'WC'), ('MC', 'WA'), ('MB', 'WJ'), ('WF', 'MH'), ('MI', 'WD'), ('MJ', 'WH')]
+MA <==> WC
+MB <==> WJ
+MC <==> WA
+MD <==> WI
+ME <==> WB
+MF <==> WE
+MG <==> WG
+MH <==> WF
+MI <==> WD
+MJ <==> WH
