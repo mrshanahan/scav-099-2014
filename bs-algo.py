@@ -105,7 +105,7 @@ def foo(n, men, women, proposer, proposed, stage_num, myFilename):
     nx.draw_networkx_edges(B, pos)
     plt.axis('off')
     plt.savefig(myFilename)
-    plt.show()
+    #plt.show()
 
 # Next, we divide it up between three stages, each having different node colors.
 

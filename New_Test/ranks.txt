@@ -1,4 +1,0 @@
-men_rankings = {'MD': ['WA', 'WD', 'WC', 'WB'], 'MA': ['WB', 'WC', 'WD', 'WA'], 'MC': ['WA', 'WC', 'WB', 'WD'], 'MB': ['WA', 'WB', 'WC', 'WD']}
-
-
-women_rankings = {'WD': ['MA', 'MC', 'MB', 'MD'], 'WC': ['MA', 'MB', 'MD', 'MC'], 'WB': ['MC', 'MA', 'MD', 'MB'], 'WA': ['MA', 'MC', 'MB', 'MD']}
