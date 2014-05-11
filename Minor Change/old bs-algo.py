@@ -56,7 +56,7 @@ class Person:
 
 men_rankings = {'MA': ['WA','WB','WC','WD'], 'MB': ['WB','WD','WC','WA'],
 			    'MC': ['WC','WB','WA','WD'], 'MD': ['WB','WA','WD','WC']}
-women_rankings = {'WA': ['MC','MD','MA','MB'], 'WB': ['MA','MD','MB','MC'],
+women_rankings = {'WA': ['MC','MD','MA','MB'], 'WB': ['MA','MB','MD','MC'],
 				  'WC': ['MC','MB','MA','MD'], 'WD': ['MB','MC','MD','MA']}
 #men_rankings = {'MA': ['WA','WB','WC'], 'MB': ['WB','WA','WC'], 'MC': ['WB','WA','WC']}
 #women_rankings = {'WA': ['MA','MC','MB'], 'WB': ['MA','MB','MC'], 'WC': ['MB','MC','MA']}
@@ -105,7 +105,7 @@ def foo(n, men, women, proposer, proposed, stage_num, myFilename):
     nx.draw_networkx_edges(B, pos)
     plt.axis('off')
     plt.savefig(myFilename)
-    #plt.show()
+    plt.show()
 
 # Next, we divide it up between three stages, each having different node colors.
 

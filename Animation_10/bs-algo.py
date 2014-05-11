@@ -6,6 +6,8 @@ except:
 import sys
 import networkx as nx
 
+blah_counter = 6
+
 class Person:
 	def __init__(self, pid, rankings):
 		self.pid = pid
@@ -54,10 +56,30 @@ class Person:
         def namesProposedTo(self):
                 return [PID for PID, mybool in self._proposedTo.items() if mybool == True]
 
-men_rankings = {'MA': ['WA','WB','WC','WD'], 'MB': ['WB','WD','WC','WA'],
-			    'MC': ['WC','WB','WA','WD'], 'MD': ['WB','WA','WD','WC']}
-women_rankings = {'WA': ['MC','MD','MA','MB'], 'WB': ['MA','MD','MB','MC'],
-				  'WC': ['MC','MB','MA','MD'], 'WD': ['MB','MC','MD','MA']}
+men_rankings = {'MA': ['WC', 'WH', 'WI', 'WB', 'WG', 'WD', 'WA', 'WJ', 'WF', 'WE'],
+                'MB': ['WI', 'WJ', 'WB', 'WG', 'WC', 'WH', 'WF', 'WD', 'WA', 'WE'],
+                'MC': ['WA', 'WH', 'WD', 'WG', 'WB', 'WC', 'WF', 'WI', 'WE', 'WJ'],
+                'MD': ['WI', 'WE', 'WD', 'WB', 'WF', 'WC', 'WA', 'WG', 'WJ', 'WH'],
+                'ME': ['WD', 'WG', 'WE', 'WF', 'WA', 'WB', 'WJ', 'WH', 'WI', 'WC'],
+                'MF': ['WJ', 'WI', 'WE', 'WC', 'WB', 'WA', 'WD', 'WH', 'WF', 'WG'],
+                'MG': ['WC', 'WG', 'WA', 'WE', 'WB', 'WJ', 'WI', 'WF', 'WD', 'WH'],
+                'MH': ['WG', 'WF', 'WC', 'WE', 'WD', 'WH', 'WI', 'WJ', 'WB', 'WA'],
+                'MI': ['WD', 'WC', 'WB', 'WG', 'WI', 'WJ', 'WE', 'WA', 'WF', 'WH'],
+                'MJ': ['WD', 'WA', 'WF', 'WH', 'WB', 'WI', 'WE', 'WG', 'WC', 'WJ']
+}
+
+women_rankings = {'WA': ['MC', 'MF', 'MA', 'MB', 'MH', 'ME', 'MD', 'MG', 'MJ', 'MI'],
+                  'WB': ['MC', 'MD', 'MA', 'MI', 'MB', 'ME', 'MG', 'MH', 'MJ', 'MF'],
+                  'WC': ['MH', 'ME', 'MJ', 'MA', 'MB', 'MC', 'MG', 'MI', 'MD', 'MF'],
+                  'WD': ['MB', 'MA', 'MF', 'MI', 'MD', 'ME', 'MJ', 'MH', 'MC', 'MG'],
+                  'WE': ['MC', 'MJ', 'MD', 'MH', 'MI', 'MF', 'ME', 'MA', 'MG', 'MB'],
+                  'WF': ['MD', 'MH', 'MG', 'MI', 'MA', 'MJ', 'MB', 'ME', 'MF', 'MC'],
+                  'WG': ['MA', 'MG', 'ME', 'MI', 'MF', 'MC', 'MH', 'MJ', 'MD', 'MB'],
+                  'WH': ['MJ', 'MI', 'MG', 'MD', 'MF', 'MH', 'MA', 'ME', 'MC', 'MB'],
+                  'WI': ['MD', 'MB', 'MH', 'MF', 'ME', 'MC', 'MJ', 'MG', 'MA', 'MI'],
+                  'WJ': ['MI', 'MG', 'MC', 'ME', 'MB', 'MA', 'MH', 'MD', 'MF', 'MJ']
+}
+
 #men_rankings = {'MA': ['WA','WB','WC'], 'MB': ['WB','WA','WC'], 'MC': ['WB','WA','WC']}
 #women_rankings = {'WA': ['MA','MC','MB'], 'WB': ['MA','MB','MC'], 'WC': ['MB','MC','MA']}
 men = {k: Person(k,ranks) for (k,ranks) in men_rankings.items()}
@@ -80,6 +102,9 @@ def foo(n, men, women, proposer, proposed, stage_num, myFilename):
         matched = men[m].getFiancee()
         if matched is not None:
             B.add_edges_from([(m, matched.pid)])
+    global blah_counter
+    print "blah_counter: {0}; {1}".format(blah_counter, B.edges())
+    blah_counter += 1
     # Map men and women to positions
     # First, we convert from dict to list, and sort by ID.
     men_list = sorted(men.items(), reverse=True)
@@ -105,7 +130,7 @@ def foo(n, men, women, proposer, proposed, stage_num, myFilename):
     nx.draw_networkx_edges(B, pos)
     plt.axis('off')
     plt.savefig(myFilename)
-    #plt.show()
+    plt.show()
 
 # Next, we divide it up between three stages, each having different node colors.
 
@@ -193,9 +218,9 @@ counter = 6 # First six images are for the legend.
 while m:
 	wid = m.nextHighestUnproposed()
 	w = women[wid]
-        foo(4, men, women, m, w, 1, genFilename(counter))
+        foo(10, men, women, m, w, 1, genFilename(counter))
         counter += 1
-        foo(4, men, women, m, w, 2, genFilename(counter))
+        foo(10, men, women, m, w, 2, genFilename(counter))
         counter += 1
 	if w.isFree():
 		m.engageTo(w)
@@ -204,13 +229,17 @@ while m:
 		if w.prefers(m, m2):
 			w.engageTo(m)
 	m.proposedTo(w)
-        foo(4, men, women, m, w, 3, genFilename(counter))
+        foo(10, men, women, m, w, 3, genFilename(counter))
         counter += 1
+	try:
+		print "Step:" + str(counter) + " MG's partner: " + men["MG"].getFiancee().pid
+	except:
+		print "Step:" + str(counter) + " MG's partner: None"
 	m = freeMan(men)
 
 # Jank way to generate a pause at the end of the gif/animation.
 for i in range(3):
-    foo(4, men, women, m, w, 3, genFilename(counter))
+    foo(10, men, women, m, w, 3, genFilename(counter))
     counter += 1
 
 for m in sorted(men.values(), key=lambda m: m.pid):
